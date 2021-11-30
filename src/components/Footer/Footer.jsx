@@ -1,3 +1,4 @@
+import * as React from "react";
 export default () => {
     return(
         <div style={{textAlign: "center", backgroundColor: "#dddddd", padding: "25px"}}>

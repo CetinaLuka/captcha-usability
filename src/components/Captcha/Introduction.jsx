@@ -2,6 +2,7 @@ import { Grid } from "@mui/material";
 import { useContext } from "react";
 import UserContext from "../../context/UserContext";
 import { Button } from "@mui/material";
+import * as React from "react";
 
 const Introduction = ({next, userId}) => {
     return(

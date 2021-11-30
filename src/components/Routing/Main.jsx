@@ -4,6 +4,7 @@ import Checkout from "../DataCapture/Checkout";
 import Footer from '../Footer/Footer';
 import Intro from '../Intro';
 import Navbar from '../Navbar/Navbar';
+import * as React from "react";
 const Main = () => {
     return (
         <div className="main-container">
