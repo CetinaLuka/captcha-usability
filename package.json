@@ -5,7 +5,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -68,7 +68,7 @@
     "web-vitals": "^2.1.2",
     "yup": "^0.29.3"
   },
-  "homepage": ".",
+  "homepage": "https://captcha-usability-frontend.herokuapp.com",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.2.0",
