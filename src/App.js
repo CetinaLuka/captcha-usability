@@ -4,7 +4,8 @@ import {
   BrowserRouter,
   Route,
   Link,
-  Switch
+  Switch,
+  HashRouter
 } from 'react-router-dom';
 import Main from './components/Routing/Main';
 import { useEffect, useState } from 'react';
@@ -34,9 +35,9 @@ function App() {
     <UserContext.Provider
       value={{ userId, setUserId }}
     >
-      <BrowserRouter>
+      <HashRouter>
         <Main />
-      </BrowserRouter>
+      </HashRouter>
     </UserContext.Provider >
   );
 }
